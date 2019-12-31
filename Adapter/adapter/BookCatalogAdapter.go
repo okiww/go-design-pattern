@@ -17,5 +17,5 @@ func NewBookCatalogAdapter(book Book) CatalogAdapter {
 }
 
 func (bookCatalogAdapter *BookCatalogAdapter) GetCatalogTitle() string {
-	return bookCatalogAdapter.Book.Title + " by " + bookCatalogAdapter.Book.Title
+	return bookCatalogAdapter.Book.Title + " by " + bookCatalogAdapter.Book.Author
 }
